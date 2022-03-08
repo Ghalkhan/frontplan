@@ -1,0 +1,29 @@
+html,
+body {
+  direction: rtl;
+  padding: 0;
+  margin: 0;
+  font-family: "Vazir", monospaced;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+div {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("./fonts/Vazir.ttf");
+  font-style: normal;
+}
+
+pre,
+code {
+  font-family: Vazir, monospaced;
+}
